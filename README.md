@@ -10,41 +10,53 @@
 
 ---
 
-## Deskripsi singkat
+## Aplikasi Pemesanan Buku Online (Proyek UTS Pemrograman Web 1)
 
-Aplikasi Front-End Toko Buku Sederhana yang dibangun dengan HTML, CSS, dan JavaScript murni. Menyediakan fitur Katalog Dinamis, Checkout, dan Tracking Pengiriman dengan Progress Bar.
-
----
-
-## Demo singkat (fitur utama)
-
-- Login & Dashboard Ceria: Login demo, dilengkapi Modal Box, Validasi Form, dan Greeting Dinamis (waktu lokal).
-- Katalog Dinamis: Tabel buku dimuat dari data JS (JS DOM), menampilkan Cover Buku dan Highlight Stok Rendah.
-- Manajemen Stok: Fitur Tambah Stok Manual langsung ke dalam tabel.
-- Checkout: Perhitungan Total Pembayaran dinamis berdasarkan kuantitas.
-- Tracking Kreatif: Cek status pengiriman (Nomor DO) dengan visualisasi Progress Bar Dinamis.
-- Styling Unik: Desain Pink Lucu yang modern, responsif, dan konsisten (termasuk penggunaan Emoji).
+Deskripsi Singkat
+Aplikasi Front-End Toko Buku Sederhana yang dibangun dengan HTML, CSS, dan JavaScript murni (Vanilla JS). Proyek ini bertujuan memenuhi kriteria UTS dengan menyediakan fungsionalitas inti Toko Buku: Login, Katalog Dinamis, Checkout, dan Pelacakan Pengiriman.
 
 ---
 
-## Cara menjalankan (lokal)
+## Demo Singkat (Fitur Utama)
 
-- Struktur Folder: Pastikan Anda telah meng-clone atau mengunduh semua file proyek dengan struktur folder yang benar
-- Buka Proyek: Buka folder utama proyek (UTS-Pemweb-Project/) di Visual Studio Code.
-- Jalankan Live Server
-  1. Klik kanan pada file index.html (halaman Login).
-  2. Pilih opsi Open with Live Server.
-- Akses Aplikasi: Browser Anda akan otomatis terbuka ke alamat lokal (biasanya http://127.0.0.1:5500/index.html).
-- Gunakan Akun Demo: Anda bisa mencoba login menggunakan akun demo yang tersedia di js/data.js untuk mengakses Dashboard, Katalog, dan fitur lainnya.
+Login & Dashboard Interaktif:
+Menerapkan Validasi Form untuk proses login.
+Dilengkapi Modal Box untuk Lupa Password/Daftar.
+Menampilkan Greeting Dinamis berdasarkan waktu lokal (pagi/siang/sore).
 
----
+Katalog Dinamis & Manajemen Stok:
+Tabel buku dimuat dari data dummy di js/data.js menggunakan JavaScript DOM Manipulation.
+Terdapat fitur Tambah Stok Baru secara manual langsung di dalam tabel.
 
-## Struktur folder proyek
+Checkout Fleksibel:
+Keranjang dapat dimanipulasi (ubah kuantitas, hapus item) secara real-time.
+Perhitungan Total Pembayaran otomatis dan dinamis.
+
+Tracking Kreatif:
+Cek status pengiriman berdasarkan Nomor DO (Delivery Order).
+Dilengkapi visualisasi Progress Bar Dinamis untuk status pengiriman.
+
+Styling Unik:
+Desain menggunakan Tema Profesional Biru (#007bff) yang modern, bersih, dan responsif.
+Cara Menjalankan (Lokal)
+Struktur Folder: Pastikan semua file proyek (HTML, CSS, dan JS) telah diunduh dan tersusun dalam folder tugas-uts-web1/.
+Buka Proyek: Buka folder utama proyek di editor kode Anda (direkomendasikan Visual Studio Code).
+
+Jalankan Live Server:
+Klik kanan pada file index.html (halaman Login).
+Pilih opsi "Open with Live Server" atau "Run" di editor Anda.
+
+Akses Aplikasi: Browser Anda akan otomatis terbuka ke alamat lokal (contoh: http://127.0.0.1:5500/index.html).
+
+Gunakan Akun Demo: Anda bisa mencoba login menggunakan akun demo yang tersedia di js/data.js (contoh: siti@gmail.com dan siti123) untuk mengakses Dashboard.
+
+Struktur Folder Proyek
 
 tugas-uts-web1/
+
 ├── assets/
 
-│   └── logo.png (Opsional: untuk ikon atau logo)
+│   └── logo.png (Opsional)
 
 ├── css/
 
@@ -56,7 +68,7 @@ tugas-uts-web1/
 
 │   ├── buku2.png
 
-│   └── dst... (Folder untuk menyimpan gambar cover buku)
+│   └── dst... (Gambar cover buku)
 
 ├── js/
 
@@ -74,17 +86,13 @@ tugas-uts-web1/
 
 └── checkout.html (Halaman Keranjang dan Pemesanan)
 
-## Teknologi yang Digunakan
+Teknologi yang Digunakan
 
-- HTML5: Digunakan untuk struktur dasar dan konten semantik.
-- CSS3: Digunakan untuk styling dan desain responsif, termasuk implementasi tema Pink Lucu dan Pseudo-elements (untuk emoji).
-- avaScript (Vanilla JS): Digunakan untuk semua logika, manipulasi DOM, validasi form, pengolahan data tabel, dan interaksi UI (Alert, Modal, Greeting Dinamis).
+HTML5: Digunakan untuk struktur dasar dan konten semantik.
 
-## Kriteria Implementasi Proyek
+CSS3: Digunakan untuk styling dan desain responsif, termasuk implementasi Tema Profesional Biru.
 
-- Struktur & Validitas: Memastikan HTML semantik dan struktur file modular.
-- Gaya Antar Muka: Implementasi tema Pink Lucu yang konsisten dan responsif.
-- avaScript DOM: Penggunaan JS untuk Validasi Form, Manipulasi Data Tabel, dan Interaksi UI Kreatif (Progress Bar, Modal Box, Alert Box).
+JavaScript (Vanilla JS): Digunakan untuk semua logika, manipulasi DOM, validasi form, pengolahan data tabel, dan interaksi UI Kreatif (Alert, Modal, Greeting Dinamis, Progress Bar).
 
 ## Link Youtube
 
